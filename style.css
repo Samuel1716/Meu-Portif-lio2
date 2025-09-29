@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body{
+    background-color: #2965f0;
+}
+.div-habilidades{
+   
+}
+
+.caixa-html{
+    background-color: bisque;
+    color: aquamarine;
+    margin: 100px;
+    height: 300px;
+    
+    border-radius: 30px;
+    width: 500px;
+    
+}
+.caixa-git{
+    background-color: bisque;
+    color: aquamarine;
+    margin: 100px;
+    padding: 70px;
+    border-radius: 30px;
+}
+p{
+    
+}
