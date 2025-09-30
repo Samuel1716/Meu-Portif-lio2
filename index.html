@@ -5,75 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Samuel Ferreira</title>
+    <title>Samuel Ferreira | Portifólio</title>
 </head>
 
 <body>
     <header>
         <div>
-            <h1><strong>Samuel Ferreira</strong></h1>
-            <div>
-                <a href="#">Sobre</a>
-                <a href="#">Habilidades</a>
-                <a href="#">Projetos</a>
-                <a href="#">Certificados</a>
+            <h1 class="cabecalho"><strong>Samuel Ferreira</strong></h1>
+            <div class="cabeçalho">
+                <a href="#Sobre" id="sobre">Sobre</a>
+                <a href="#Habilidades" id="habilidades">Habilidades</a>
+                <a href="#Contatos" id="contatos">Contatos</a>
+                <a href="#Projetos" id="projetos">Projetos</a>
+                <a href="#Certificado" id="certificados">Certificados</a>
             </div>
-        </div>
-        <div class="div-sobre">
-            <img src="img/WhatsApp Image 2025-09-28 at 10.08.51.jpg" alt="Minha foto" width="300px">
-            <h2>Sobre mim</h2>
-                <p>Meu nome é Samuel Ferreira, tenho 16 anos e
-                    possuo curso de Suporte em TI, com
-                    conhecimentos em hardware, software e
-                    redes. Atualmente estou me dedicando à área
-                    de programação, estudando HTML, CSS, Git e
-                    JavaScript. Sou motivado por tecnologia e
-                    busco constantemente evoluir para me tornar
-                    um profissional completo na área de TI e
-                    desenvolvimento.</p>
         </div>
     </header>
-    <main>
-        <section>
-            <div>
-                <h2>Habilidades</h2>
-                <p>Git</p>
-                <article class="caixa-git">
-                    <img src="img/Git.png" alt="Logo git">
-                </article>
-            </div>
-            <div>
 
+    <section>
+        <article id="container-img">
+            <img src="img/WhatsApp Image 2025-09-28 at 10.08.51.jpg" alt="Minha foto" width="300px">
+        </article>
+        <article id="sobre-mim">
+            <h2 id="Sobre">Sobre mim</h2>
+            <p>Meu nome é Samuel Ferreira, tenho 16 anos e
+                possuo curso de Suporte em TI, com
+                conhecimentos em hardware, software e
+                redes. Atualmente estou me dedicando à área
+                de programação, estudando HTML, CSS, Git e
+                JavaScript. Sou motivado por tecnologia e
+                busco constantemente evoluir para me tornar
+                um profissional completo na área de TI e
+                desenvolvimento.</p>
+        </article>
+    </section>
+    <section>
+        <div>
+            <h2 id="Habilidades">Habilidades</h2>
+            
+            <article class="habilidades">
+                <p>Git</p>
+                <img src="img/Git.png" alt="Logo git">
+            </article>
+        </div>
+        <div class="habilidades"> 
+            <article class="habilidades">
                 <p>HTML</p>
-                <article class="caixa-html">
-                    <img src="img/HTML-5-Badge-Logo.png" alt="Logo HTML">
-                </article>
-            </div>
-            <div>
+                <img src="img/HTML-5-Badge-Logo.png" alt="Logo HTML">
+            </article>
+        </div>
+        <div class="habilidades">
+            <article class="habilidades">
                 <p>CSS</p>
-                <article>
-                    <img src="img/CSS3_logo_and_wordmark.svg.png" alt="Logo CSS">
-                </article>
-            </div>
-            <div>
+                <img src="img/CSS3_logo_and_wordmark.svg.png" alt="Logo CSS">
+            </article>
+        </div>
+        <div class="habilidades">
+            <article class="habilidades">
                 <p>JavaScript</p>
                 <img src="img/JavaScript-Emblem.png" alt="logo JavaScript">
-            </div>
-            <div>
+            </article>
+        </div>
+        <div class="habilidades">
+            <article class="habilidades">
                 <p>Pacote office</p>
                 <img src="img/Microsoft_Office_logo.png" alt="Logo Pacote office">
-            </div>
-            <div>
+            </article>
+        </div>
+        <div class="habilidades">
+            <article class="habilidades">
                 <p>Hardware</p>
                 <img src="img/tipos-de-hardware.png" alt="Logo Hardware">
-            </div>
-            <div>
+            </article>
+        </div>
+        <div class="habilidades">
+            <article class="habilidades">
                 <p>Software</p>
                 <img src="img/Software.png" alt="Logo Software">
-            </div>
-        </section>
-    </main>
-    <footer>Todos os direitos  reservados -  Site do Samuel©</footer>
+            </article>
+        </div>
+    </section>
+    <section>
+        <h2 class="h2-contato">Contatos</h2>
+        <div id="email">
+            <a href="mailto:ferreirasamuel938@gmail.com" class="email">E-mail:ferreirasamuel938@gmail.com</a><br>
+        </div>
+        <div id="linkedin">
+            <a href="https://www.linkedin.com/in/samuel-ferreira-9455182a3/"
+                class="linkdin">LinkedIn:samuel-ferreira-9455182a3</a><br>
+        </div>
+        <div id="github">
+            <a href="https://github.com/Samuel1716" class="github">Github:Samuel1716</a><br>
+        </div>
+        <div id="tel">
+            <a href="https://wa.me/9911971343071" class="tel">tel:11 971343071</a><br>
+        </div>
+    </section>
+    <footer>Todos os direitos reservados - Site do Samuel©</footer>
 </body>
 
 </html>
