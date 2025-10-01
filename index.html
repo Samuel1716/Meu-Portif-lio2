@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,98 +10,124 @@
 
 <body>
     <header>
-        <div>
+        <div class="cor-cabeçalho">
             <h1 class="cabecalho"><strong>Samuel Ferreira</strong></h1>
             <div class="cabeçalho">
-                <a href="#Sobre" id="sobre">Sobre</a>
-                <a href="#Habilidades" id="habilidades">Habilidades</a>
-                <a href="#Contatos" id="contatos">Contatos</a>
-                <a href="#Projetos" id="projetos">Projetos</a>
-                <a href="#Certificado" id="certificados">Certificados</a>
+                <a href="#s-sobre" id="sobre-mim">Sobre </a>
+                <a href="#s-habilidades" id="habilidades">Habilidades </a>
+                <a href="#s-Projetos" id="projetos">Projetos </a>
+                <a href="#s-certificados" id="certificados">Certificados</a>
+                <a href="#s-contatos" id="contatos">Contatos </a>
+
             </div>
         </div>
     </header>
-
-    <section>
-        <article id="container-img">
-            <img src="img/WhatsApp Image 2025-09-28 at 10.08.51.jpg" alt="Minha foto" width="300px">
-        </article>
-        <article id="sobre-mim">
-            <h2 id="Sobre">Sobre mim</h2>
-            <p>Meu nome é Samuel Ferreira, tenho 16 anos e
-                possuo curso de Suporte em TI, com
-                conhecimentos em hardware, software e
-                redes. Atualmente estou me dedicando à área
-                de programação, estudando HTML, CSS, Git e
-                JavaScript. Sou motivado por tecnologia e
-                busco constantemente evoluir para me tornar
-                um profissional completo na área de TI e
-                desenvolvimento.</p>
-        </article>
+    <section class="sobre-container">
+        <img src="img/WhatsApp Image 2025-09-28 at 10.08.51.jpg" alt="minha foto" width="300px">
+        <div class="sobre-texto">
+            <section id="s-sobre">
+            <h2 class="sobre-mim">Sobre mim</h2>
+            <p>Meu Nome é <strong>Samuel ferreira</strong>, tenho 16 anos e possuo curso de Suporte em TI,
+                com conhecimentos em hardware, software e redes. Atualmente estou me dedicando à área de programação,
+                estudando HTML, CSS, Git e JavaScript. Sou motivado por tecnologia e busco constantemente evoluir para
+                me tornar um profissional completo na área de TI e desenvolvimento.</p>
+            </section>
+        </div>
     </section>
     <section>
-        <div>
-            <h2 id="Habilidades">Habilidades</h2>
-            
-            <article class="habilidades">
+        <h2 id="s-habilidades">Habilidades</h2>
+        <div class="git-habilidades">
+            <div class="habilidades1">
                 <p>Git</p>
-                <img src="img/Git.png" alt="Logo git">
-            </article>
-        </div>
-        <div class="habilidades"> 
-            <article class="habilidades">
+                <img src="img/Git.png" alt="Git">
+            </div>
+            <div class="habilidades1">
                 <p>HTML</p>
-                <img src="img/HTML-5-Badge-Logo.png" alt="Logo HTML">
-            </article>
-        </div>
-        <div class="habilidades">
-            <article class="habilidades">
+                <img src="img/HTML-5-Badge-Logo (1).png" alt="HTML">
+            </div>
+            <div class="habilidades1">
                 <p>CSS</p>
-                <img src="img/CSS3_logo_and_wordmark.svg.png" alt="Logo CSS">
-            </article>
-        </div>
-        <div class="habilidades">
-            <article class="habilidades">
+                <img src="img/CSS3_logo_and_wordmark.svg.png" alt="CSS">
+            </div>
+            <div class="habilidades1">
                 <p>JavaScript</p>
-                <img src="img/JavaScript-Emblem.png" alt="logo JavaScript">
-            </article>
-        </div>
-        <div class="habilidades">
-            <article class="habilidades">
-                <p>Pacote office</p>
-                <img src="img/Microsoft_Office_logo.png" alt="Logo Pacote office">
-            </article>
-        </div>
-        <div class="habilidades">
-            <article class="habilidades">
+                <img src="img/javascript-logo-png.webp" alt="JavaScript">
+            </div>
+            <div class="habilidades1">
+                <p>Pacote Office</p>
+                <img src="img/Microsoft_Office_logo.png" alt="Pacote Office">
+            </div>
+            <div class="habilidades1">
                 <p>Hardware</p>
-                <img src="img/tipos-de-hardware.png" alt="Logo Hardware">
-            </article>
-        </div>
-        <div class="habilidades">
-            <article class="habilidades">
+                <img src="img/tipos-de-hardware.png" alt="Hardware" class="boder-hardware">
+            </div>
+            <div class="habilidades1">
                 <p>Software</p>
-                <img src="img/Software.png" alt="Logo Software">
-            </article>
+                <img src="img/Software.png" alt="Software">
+            </div>
+            <div class="habilidades1">
+                <p>Redes</p>
+                <img src="img/Redes.png" alt="Redes">
+            </div>
         </div>
     </section>
-    <section>
-        <h2 class="h2-contato">Contatos</h2>
-        <div id="email">
-            <a href="mailto:ferreirasamuel938@gmail.com" class="email">E-mail:ferreirasamuel938@gmail.com</a><br>
-        </div>
-        <div id="linkedin">
-            <a href="https://www.linkedin.com/in/samuel-ferreira-9455182a3/"
-                class="linkdin">LinkedIn:samuel-ferreira-9455182a3</a><br>
-        </div>
-        <div id="github">
-            <a href="https://github.com/Samuel1716" class="github">Github:Samuel1716</a><br>
-        </div>
-        <div id="tel">
-            <a href="https://wa.me/9911971343071" class="tel">tel:11 971343071</a><br>
-        </div>
-    </section>
-    <footer>Todos os direitos reservados - Site do Samuel©</footer>
+    <hr>
+    <section id="s-Projetos">
+        <h2 class="projetos-h2">Projetos</h2>
+        <section class="linha-projetos">
+            <div class="ps-logo">
+                <img src="img/PlayStation-logo-1994.png" alt="logo PlayStation">
+                <h2>PlayStation</h2>
+            </div>
+
+
+            <div class="palmeiras-logo">
+                <img src="img/escudo-palmeiras-aspect-ratio-512-320.png" alt="palmeiras logo">
+                <h2>Palmeiras</h2>
+            </div>
+
+
+            <div class="vertex-logo">
+                <img src="img/WhatsApp Image 2025-09-29 at 14.24.04.png" alt="logo vertex">
+                <h2>Vertex</h2>
+            </div>
+        </section>
+        <section class="certificados">
+            <hr>
+            <section id="s-certificados">
+                <h2>Certificados</h2>
+                <img src="img/WhatsApp Image 2025-09-29 at 14.39.25.jpg" alt="certificado suporte em ti">
+                <h2>Suporte em TI</h2>
+            </section>
+            <hr>
+        </section>
+        <section id="s-contatos">
+            <h2 class="contatos-h2">Contatos</h2>
+            <div class="contato1">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                <a href="mailto:ferreirasamuel938@gmail.com">ferreirasamuel938@gmail.com</a>
+            </div>
+
+            <div class="contato1">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/samuel-ferreira-9455182a3" target="_blank">
+                    LinkedIn: samuel-ferreira-9455182a3
+                </a>
+            </div>
+
+            <div class="contato1">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+                <a href="https://github.com/Samuel1716" target="_blank">
+                    Github: Samuel1716
+                </a>
+            </div>
+
+            <div class="contato1">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Telefone">
+                <a href="tel:+5511971343971">Telefone: (11) 97134-3971</a>
+            </div>
+        </section>
+        <footer>Todos os direitos reservados - Site do Samuel©</footer>
 </body>
 
 </html>
