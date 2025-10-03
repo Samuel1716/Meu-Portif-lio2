@@ -209,7 +209,7 @@ li {
     grid-template-columns: repeat(5, 1fr);
     max-width: 1000px;
     margin: 0 auto;
-    margin-left: 10px;
+    margin-left: 85px;
 
 
 }
@@ -223,7 +223,7 @@ footer {
 }
 
 .certificados img {
-    margin-left: 300px;
+    margin-left: 390px;
     border-radius: 50px;
 }
 
@@ -240,4 +240,11 @@ footer {
 }
 #s-habilidades{
     text-align: center;
+}
+#s-contatos{
+   background-color: #003881;
+    
+}
+footer{
+    color: #ffffff;
 }
